@@ -1,0 +1,51 @@
+  body {
+    text-align: center;
+  }
+  #connect4 {
+    background-color: black;
+    display: inline-block;
+  }
+  
+  .col {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
+  }
+  
+  .col.empty {
+    cursor: pointer;
+  }
+  
+  .next-red {
+    background-color:red;
+  }
+  
+  .next-yellow {
+    background-color:yellow;
+  }
+  
+  .col.red {
+    background-color: red;
+  }
+  
+  .col.yellow {
+    background-color: yellow;
+  }
+  #restart {
+    width: 150px;
+    height: 40px;
+    background-color: #007bff ;
+    color: white;
+    outline: none;
+  }
+  #player {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    background-color: red;
+    margin: auto!important;  
+  }
